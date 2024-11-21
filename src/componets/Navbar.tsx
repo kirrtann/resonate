@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="p-2  bg-[#17312F]">
+            <div className="p-2 pt-10  bg-[#17312F]">
                 <div className="flex justify-between items-center container mx-auto">
                     <div className="text-[#CBFF54]">
                         <a href="#" className="flex ">
@@ -18,8 +18,8 @@ const Navbar = () => {
                         </a>
                     </div>
 
-                    <div className="hidden sm:flex px-3  py-1 rounded-md border-gray-500 border-[1px] space-x-10 items-center">
-                        <ul className="flex space-x-10 text-white   text-[14px]">
+                    <div className="hidden sm:flex px-3 py-1 rounded-md border-gray-500 border-[1px] space-x-10 items-center">
+                        <ul className="flex space-x-10 text-white   text-[12px]">
                             <li className="hover:text-[black] px-2 block rounded-md hover:bg-[#CBFF54]  cursor-pointer transition">
                                 BLOG
                             </li>

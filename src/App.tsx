@@ -1,6 +1,7 @@
-// import Footer from "./componets/Footer"
+import Footer from "./common/Footer"
 import Navbar from "./componets/Navbar"
-import Home from "./Home"
+import Home from "./componets/Home"
+
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <>
    <Navbar/>
    <Home/>
-   {/* <Footer/> */}
+   <hr />
+   <Footer/>
     </>
   )
 }

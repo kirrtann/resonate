@@ -1,6 +1,8 @@
-// import Footer from "./common/Footer"
-// import Navbar from "./componets/Navbar"
+
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./componets/Home"
+import Blogpost from "./common/Blogpost"
+import Navbar from "./componets/Navbar"
 
 
 function App() {
@@ -8,10 +10,15 @@ function App() {
 
   return (
     <>
-   {/* <Navbar/> */}
-   <Home/>
-   <hr />
-   {/* <Footer/> */}
+    <div>
+      <Navbar/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path = "Blogpost" element={<Blogpost/>}/>
+      </Routes></BrowserRouter>
+    </div>
+  
     </>
   )
 }

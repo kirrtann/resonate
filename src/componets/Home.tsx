@@ -1,14 +1,14 @@
 import Card from "../common/Card";
 import Footer from "../common/Footer";
 import { Newsletter } from "../common/Newsletter";
-import Navbar from "./Navbar";
+
 
 function Home() {
     return (
         <>
             <div className="font-mono bg-[#17312F] select-none">
                 <div className=" font-sans justify-center  mx-auto container">
-                    <Navbar />
+
                     <div className="pt-10 mr-2 ml-2  ">
                         <div className="bg-[url('https://cdn.prod.website-files.com/66e9c11534c3c55b4c45a063/66e9deb71f04baae08259083_Hero.png')]  flex relative justify-start items-end  bg-cover bg-center w-full rounded-xl h-[500px]">
                             <div className="text-white bottom-5 m-1 mb-6 backdrop-blur-sm bg-[#17312F]/50 ml-7  rounded-xl ">
@@ -51,9 +51,9 @@ function Home() {
                         <Newsletter />
 
                     </div>    </div>
-                    <div className="flex items-center justify-center w-full border-t border-t-gray-300">
+                <div className="flex items-center justify-center w-full border-t border-t-gray-300">
                     <Footer />
-                    </div>
+                </div>
 
 
             </div>

@@ -1,5 +1,5 @@
-import Footer from "./common/Footer"
-import Navbar from "./componets/Navbar"
+// import Footer from "./common/Footer"
+// import Navbar from "./componets/Navbar"
 import Home from "./componets/Home"
 
 
@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-   <Navbar/>
+   {/* <Navbar/> */}
    <Home/>
    <hr />
-   <Footer/>
+   {/* <Footer/> */}
     </>
   )
 }

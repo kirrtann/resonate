@@ -1,9 +1,10 @@
 import Card from "./Card";
+import Footer from "./Footer";
 import { Newsletter } from "./Newsletter";
 
 export default function Blogpost() {
     return (<>
-        <div className="bg-[#17312F] box-border pt-[5rem] mx-auto text-white font-mono">
+        <div className="bg-[#17312F] box-border pt-[5rem] mx-auto text-white select-none font-mono">
             <div className="container mx-auto"  >
                 <div className="  ">
                     <div className=" ">
@@ -41,8 +42,9 @@ export default function Blogpost() {
                                         Motion design is a powerful tool for storytelling in the digital age.
                                     </div>
                                 </div>
-                                <div className="uppercase text-[#CBFF54] border-t border-b mt-5 py-10 border-[#eef1ea1a] flex place-content-center "><div className="pt-2 place-content-start">
-                                    read more in:</div>
+                                <div className="uppercase text-[#CBFF54] border-t border-b mt-5 py-10 border-[#eef1ea1a] flex place-content-center ">
+                                    {/* <div className="pt-2 place-content-start">
+                                    read more in:</div> */}
                                     <div className="place-content-center">
                                         <ul className="flex  tetx-[12px] space-x-2 " >
                                             <li className="border border-transparent rounded-xl px-3 py-1 hover:border-[#CBFF54] ">ui design</li>
@@ -53,18 +55,18 @@ export default function Blogpost() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="text-[#CBFF54] py-5 ">more Like this</div>
+                                    <div className="text-[#CBFF54] py-5 uppercase ">more Like this</div>
                                     <div className="flex gap-x-3">
                                         <Card
-                                        src="https://cdn.prod.website-files.com/66e9c11534c3c55b4c45a063/66e9dec00457dd623916ef40_Thumbnail-p-800.png"/>
-                                        <Card src="https://cdn.prod.website-files.com/66e9c11534c3c55b4c45a063/66e9dec9357e82e17cd897ef_Thumbnail-1-p-800.png"/>
+                                            src="https://cdn.prod.website-files.com/66e9c11534c3c55b4c45a063/66e9dec00457dd623916ef40_Thumbnail-p-800.png" />
+                                        <Card src="https://cdn.prod.website-files.com/66e9c11534c3c55b4c45a063/66e9dec9357e82e17cd897ef_Thumbnail-1-p-800.png" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <div className=" ml-10 border border-[#eef1ea1a] w-[22rem] sticky top-10 bg-[#eef1ea0d] rounded-2xl ">
-                                <div className="grid p-[2rem] text-white ">
+                            <div className=" ml-10 border border-[#eef1ea1a] w-[22rem] sticky top-10 bg-[#eef1ea0d] rounded-2xl  ">
+                                <div className="grid p-[2rem]  text-white ">
                                     <div className="pb-2 text-[#CBFF54]">
                                         <a href="#" className="flex place-items-center ">
                                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +77,6 @@ export default function Blogpost() {
                                                     fill="currentColor"></path></svg>    <span className="pl-2 text-[20px] font-bold">Kirtan</span>                 </a>
                                     </div>
                                     <div className="  ">
-                                        
                                         <h6 className="text-[30px] pb-2 ">Subscribe to our newsletter</h6>
                                         <p className="pb-2">Sign up for your daily dose of creative inspiration, learnings, and growth.</p>
                                         <form action="" className="space-y-2  ">
@@ -83,17 +84,17 @@ export default function Blogpost() {
                                             <input type="submit" className="bg-[#CBFF54]  py-2 hover:bg-[#013C10]  w-[230px] border font-[0.75rem] border-[#CBFF54] hover:text-[#CBFF54] text-black rounded-md " />
                                         </form>
                                     </div>
-
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div>
                     <Newsletter />
                 </div>
+            </div>
+            <div className="flex items-center justify-center w-full border-t border-t-gray-300">
+                <Footer />
             </div>
         </div>
 

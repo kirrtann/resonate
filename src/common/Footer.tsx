@@ -17,7 +17,7 @@ function Footer() {
                             </span>
                         </div>
                         {/* grid grid-cols-2 sm:grid-cols-4  flex space-x-4*/}
-                        <ul className="flex gap-5 place-self-end  items-center ">
+                        <ul className="grid grid-cols-2 sm:grid-cols-4  place-self-end  items-center ">
                             <li className="py-[6px] border border-transparent px-6 hover:border hover:border-[#CBFF54] w-fit rounded-md ">LICENSE</li>
                             <li className="py-[6px] border border-transparent px-6 hover:border hover:border-[#CBFF54] w-fit rounded-md ">STYLE GUIDE</li>
                             <li className="py-[6px] border border-transparent px-6 hover:border hover:border-[#CBFF54] w-fit rounded-md ">THE RESONANCE</li>

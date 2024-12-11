@@ -1,7 +1,7 @@
 export function Newsletter() {
     return (
         <>
-            <div className=" container bg-[#17312F] max-w-[70rem] w-full mr-auto p-2 ml-auto py-[100px]">
+            <div className="  bg-[#17312F] max-w-[70rem] w-full  p-2 mx-auto py-[100px]">
                 <div className="sm:flex text-white bg-cover rounded-3xl 
                  font-mono bg-[url('https://cdn.prod.website-files.com/66e9c11534c3c55b4c45a058/66e9e3b926706c4ea7169531_Newsletter-BG.png')] bg-no-repeat ">
                     <div className="md:py-[7.5rem] md:pl-[5rem] pr-2 py-10 pl-10 ">
